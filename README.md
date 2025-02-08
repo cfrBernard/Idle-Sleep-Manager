@@ -1,6 +1,15 @@
 # Idle-Sleep-Manager 💤
 Python-based application to enforce system sleep after a set period of user inactivity, even when video players or streaming services prevent it.
 
+<br>
+<br>
+
+<p align="center">
+  <img src="demo/Idle-Sleep-Manager-v1.0.0_D2zlxV6cVI.png" alt="Idle-Sleep-Manager Demo" />
+</p>
+
+<br>
+
 ## ✨ Features
 
 - **Customizable timeout**: Choose from predefined durations (e.g., 5 minutes, 15 minutes, 1 hour, etc.).
