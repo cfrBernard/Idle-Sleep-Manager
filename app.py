@@ -34,7 +34,7 @@ stop_event = threading.Event()
 # Function to monitor events
 def on_event(x=None, y=None, key=None):
     global counter
-    counter = 0  # Reset the counter on each event
+    counter = 0
 
 # Function to update the timeout
 def update_timeout(event):
@@ -77,7 +77,7 @@ def start_listening():
 def listen_for_inactivity():
     global timeout, counter
     while not stop_event.is_set():
-        stop_event.wait(timeout=5)  # Wait 5 seconds before checking
+        stop_event.wait(timeout=5)  # Wait 5 seconds
         counter += 5  # Increment by 5 seconds
         print(f"Counter: {counter} seconds")
         if counter >= timeout:
@@ -110,10 +110,7 @@ timeout_combobox = ttk.Combobox(root, values=timeout_options, state="readonly")
 timeout_combobox.set(timeout_options[0])  # Default to 5 minutes
 timeout_combobox.grid(row=0, column=1, padx=10, pady=10)
 
-timeout_combobox.bind("<<ComboboxSelected>>", update_timeout)  # Update timeout 
+timeout_combobox.bind("<<ComboboxSelected>>", update_timeout)
 
-# Start listening automatically
 start_listening()
-
-# Run the interface
 root.mainloop()
