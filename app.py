@@ -10,6 +10,7 @@ def sleep_computer():
     subprocess.run(["rundll32.exe", "powrprof.dll,SetSuspendState", "Sleep"])
 
     # ------------------------
+    #
     # The following commands are commented out because they only work on Linux or macOS:
     # - Linux: systemctl suspend
     # - macOS: pmset sleepnow
