@@ -1,9 +1,9 @@
 # Idle-Sleep-Manager 💤
 Python-based application to enforce system sleep after a set period of user inactivity, even when video players or streaming services prevent it.
 
-[**Download the latest version here**](https://github.com/cfrBernard/MaskMapWizard/releases)
+[**Download the latest version here**](https://github.com/cfrBernard/Idle-Sleep-Manager/releases)
 
-![Version](https://img.shields.io/badge/version-v0.1.0-blue)
+![Version](https://img.shields.io/badge/version-v1.0.0-blue)
 ![License](https://img.shields.io/github/license/cfrBernard/MaskMapWizard)
 
 <br>
@@ -28,6 +28,7 @@ Python-based application to enforce system sleep after a set period of user inac
 
 ## 🛠 Development Setup
 
+### Installation:
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/cfrBernard/Idle-Sleep-Manager.git
@@ -37,7 +38,7 @@ Python-based application to enforce system sleep after a set period of user inac
    ```bash
    pip install pynput
 
-## Usage
+### Usage:
 
 1. **Run the script**:
    ```bash
@@ -58,6 +59,8 @@ Python-based application to enforce system sleep after a set period of user inac
 
 **Custom configurations**:
 - You can adjust the default timeout (timeout) or add more options in the dropdown.
+
+---
 
 ## 📜 License: 
 This project is licensed under the MIT License. See the [LICENSE](./LICENSE.md) file for details.
