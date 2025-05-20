@@ -1,6 +1,11 @@
 # Idle-Sleep-Manager 💤
 Python-based application to enforce system sleep after a set period of user inactivity, even when video players or streaming services prevent it.
 
+[**Download the latest version here**](https://github.com/cfrBernard/MaskMapWizard/releases)
+
+![Version](https://img.shields.io/badge/version-v0.1.0-blue)
+![License](https://img.shields.io/github/license/cfrBernard/MaskMapWizard)
+
 <br>
 <br>
 
@@ -10,7 +15,7 @@ Python-based application to enforce system sleep after a set period of user inac
 
 <br>
 
-## ✨ Features
+## Features
 
 - **Customizable timeout**: Choose from predefined durations (e.g., 5 minutes, 15 minutes, 1 hour, etc.).
 - **Cross-platform support**:
@@ -21,12 +26,7 @@ Python-based application to enforce system sleep after a set period of user inac
 
 ---
 
-## ⬇️ Quick Download
-For the latest `.exe` version, go to the [Releases](https://github.com/cfrBernard/Idle-Sleep-Manager/releases) page.
-
----
-
-## 🛠 Installation
+## 🛠 Development Setup
 
 1. **Clone the repository**:
    ```bash
@@ -37,18 +37,18 @@ For the latest `.exe` version, go to the [Releases](https://github.com/cfrBernar
    ```bash
    pip install pynput
 
-## 🚀 Usage
+## Usage
 
 1. **Run the script**:
    ```bash
    python app.py
 
 2. **Set timeout**:
-- Select the desired inactivity period from the dropdown menu.
-- The script will begin monitoring your activity automatically.
+  - Select the desired inactivity period from the dropdown menu.
+  - The script will begin monitoring your activity automatically.
 
 3. **Sleep trigger**:
-- Once the defined inactivity time is exceeded, the system will go to sleep.
+  - Once the defined inactivity time is exceeded, the system will go to sleep.
 
 ## 📌 Notes
 
